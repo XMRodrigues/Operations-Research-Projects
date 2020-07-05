@@ -10,7 +10,6 @@ def main():
   capacities = [245, 270, 260, 130, 115, 70, 90, 110, 140, 120, 110, 85, 130, 95, 85, 130, 160, 220, 330, 240]
 
   max_flow = pywrapgraph.SimpleMaxFlow()
-  # Add each arc.
   for i in range(0, len(start_nodes)):
     max_flow.AddArcWithCapacity(start_nodes[i], end_nodes[i], capacities[i])
 
