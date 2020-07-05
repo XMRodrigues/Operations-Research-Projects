@@ -1,9 +1,10 @@
-
 from __future__ import print_function
 from ortools.graph import pywrapgraph
 
 def main():
 
+  #This code was based upon Maximum Flow section at Or-Tools guide provided by Google
+  
   start_nodes = [0, 0, 0, 1, 1, 2, 2, 2, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 8, 9]
   end_nodes = [1, 2, 3, 4, 5, 4, 5, 6, 5, 6, 7, 8, 7, 8, 9, 8, 9, 10, 10, 10]
   capacities = [245, 270, 260, 130, 115, 70, 90, 110, 140, 120, 110, 85, 130, 95, 85, 130, 160, 220, 330, 240]
