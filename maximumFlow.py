@@ -4,6 +4,7 @@ from ortools.graph import pywrapgraph
 def main():
 
   #This code was based upon Maximum Flow section at Or-Tools guide provided by Google
+  #Source: https://developers.google.com/optimization/flow/maxflow
   
   start_nodes = [0, 0, 0, 1, 1, 2, 2, 2, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 8, 9]
   end_nodes = [1, 2, 3, 4, 5, 4, 5, 6, 5, 6, 7, 8, 7, 8, 9, 8, 9, 10, 10, 10]
